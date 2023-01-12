@@ -230,6 +230,14 @@ img{
 }
 
 /*home customization*/
+
+#Home_img{
+    border-radius: 2rem;
+}
+
+#about_me_img{
+    border-radius: 1.2rem;
+}
 .home__container{
     gap: 1rem;
 }
@@ -328,6 +336,7 @@ img{
     text-align: center;
     margin-bottom: var(--mb-2-5);
     padding: 5%;
+    justify-content: center;
 }
 
 .about__img{
@@ -671,7 +680,6 @@ img{
         column-gap: 2rem;
     }
 }
-
 /* Adjustment for large devices */
 @media screen and (min-width:1024px) {
     .header,
