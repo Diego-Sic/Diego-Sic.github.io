@@ -346,6 +346,7 @@ img{
 .about__data{
     display: grid;
     grid-template-rows: 0.4fr 0.3fr;
+    justify-items: center;
 }
 
 .about__description{
@@ -439,6 +440,10 @@ img{
 .swiper-button-prev::after,
 .swiper-button-next::after{
     content: "";
+}
+
+.swiper-horizontal>.swiper-pagination-bullets{
+    bottom: -4.5rem;
 }
 
 .swiper-portfolio-icon{
