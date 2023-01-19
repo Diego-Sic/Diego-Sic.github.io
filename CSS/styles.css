@@ -557,10 +557,6 @@ img{
         grid-template-columns: 0.25fr 3fr;
     }
 
-    .home__blob{
-        width: 180px;
-    }
-
     .skills__tittle{
         font-size: var(--normal-font-size);
     }
@@ -585,6 +581,7 @@ img{
         order: 1;
         justify-self: center;
     }
+    
     .about__container,
     .portfolio__content{
         grid-template-columns: repeat(2, 1fr);
