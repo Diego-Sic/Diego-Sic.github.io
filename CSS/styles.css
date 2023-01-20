@@ -370,8 +370,17 @@ img{
     justify-content: center;
 }
 
+.skills__header{
+    display: flex;
+    flex-direction: column;
+
+}
 .skills__container{
     margin-top: 2rem;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    
 }
 
 .skills__icon{
@@ -379,20 +388,6 @@ img{
     color: var(--first-color);
 }
 
-.skills__bar, .skills__percentage{
-    height: 5px;
-    border-radius: 0.25rem;
-}
-
-.skills__bar{
-    background-color: var(--first-color-lighter);
-
-}
-
-.skills__percentage{
-    display: block;
-    background-color: var(--first-color);
-}
 
 .skills__python{
     width: 80%;
@@ -666,7 +661,12 @@ img{
     .home__scroll-button{
         margin-left: auto;
     }
-
+    .skills__header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        
+    }
     .footer{
         padding:  0;
     }

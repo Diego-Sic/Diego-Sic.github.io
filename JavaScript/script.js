@@ -63,3 +63,10 @@ function scrollHeader(){
     if(this.scrollY >= 200) nav.classList.add('scroll-header'); else nav.classList.remove('scroll-header')
 }
 window.addEventListener('scroll', scrollHeader)
+
+// Icon animation
+gsap.from(".python",{opacity:0, duration:2, delay:0.5, x:60})
+gsap.from(".github",{opacity:0, duration:2, delay:0.5, x:60})
+gsap.from(".javascript",{opacity:0, duration:2, delay:0.5, x:60})
+gsap.from(".html",{opacity:0, duration:2, delay:0.5, x:60})
+gsap.from(".css",{opacity:0, duration:2, delay:0.5, x:60})
