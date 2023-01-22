@@ -345,6 +345,7 @@ img{
 }
 .about__data{
     display: grid;
+    margin-bottom: 0;
     grid-template-rows: 0.4fr 0.3fr;
     justify-items: center;
 }
