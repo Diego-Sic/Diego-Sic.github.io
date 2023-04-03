@@ -65,8 +65,18 @@ function scrollHeader(){
 window.addEventListener('scroll', scrollHeader)
 
 // Icon animation
-gsap.from(".python",{opacity:0, duration:2, delay:0.5, x:60})
-gsap.from(".github",{opacity:0, duration:2, delay:0.5, x:60})
-gsap.from(".javascript",{opacity:0, duration:2, delay:0.5, x:60})
-gsap.from(".html",{opacity:0, duration:2, delay:0.5, x:60})
-gsap.from(".css",{opacity:0, duration:2, delay:0.5, x:60})
+
+$("#skills").bind('scroll', function() {
+
+});
+
+$(document).ready(function() {
+    if (window.location.pathname+window.location.hash == '/index.html#contact') {
+        gsap.from(".python",{opacity:0, duration:2, delay:0.5, x:60})
+        gsap.from(".github",{opacity:0, duration:2, delay:0.5, x:60})
+        gsap.from(".javascript",{opacity:0, duration:2, delay:0.5, x:60})
+        gsap.from(".html",{opacity:0, duration:2, delay:0.5, x:60})
+        gsap.from(".css",{opacity:0, duration:2, delay:0.5, x:60})
+    }
+});
+
